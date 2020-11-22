@@ -12,6 +12,7 @@ RGBWeb is a spring based service for controlling your RGB Strip!
 - Set up IntelliJ to run the software on the Pi:
 ![IntelliJ Setup](https://raw.githubusercontent.com/SirNiggo/rgbweb/main/intellij-setup.png)
 - Setup Raspbery Pi wiring according to fritzing schematics in /fritzing folder
+- Enable SPI interface on Raspberry `sudo raspi-config` -> "Interface options" -> "SPI" -> Enable
 - Run the application
 ## Roadmap
 
